@@ -1,0 +1,21 @@
+<!-- <p>assigned-training-for-user works!</p> -->
+
+<h2>Assigned Trainings</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Training ID</th>
+      <th>Training Name</th>
+      <th>Action</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let training of assignedTrainings">
+      <td>{{ training.trainingId }}</td>
+      <td>{{ training.trainingName }}</td>
+      <td><button class="btn-primary" (click)="unassignTraining(training.trainingId)" class="btn1">Unassign</button></td>
+
+    </tr>
+  </tbody>
+</table>

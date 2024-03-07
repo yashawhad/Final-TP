@@ -1,0 +1,219 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #365cf4bf;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-section {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1000;
+    display: none;
+}
+
+.profile-section.active {
+    display: block;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #0e0c0c;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile-logout {
+    float: right;
+}
+
+.profile-logout img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+h2{
+    font-weight: bold;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #365cf4bf;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-section {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1000;
+    display: none;
+}
+
+.profile-section.active {
+    display: block;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #0e0c0c;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.profile-logout {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 7px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+      float: right;
+      font-weight: bold;
+      border-radius: 50px;
+  }
+.user-info {
+    margin-top: 20px;
+}
+
+.info-section {
+    margin-bottom: 10px;
+  
+}
+
+.info-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+   
+}
+.info-section label i{
+margin-right: 30px;
+}
+.info-section p {
+    display: inline;
+    margin-right: 10px;
+    font-size: 15px;
+   
+}
+
+
+
+.profile {
+    text-align: center;
+    background-image: url("https://th.bing.com/th/id/R.3fd370fc7c4a3486bc4bfc317636c5e4?rik=HX1jfS%2bwO5Z%2fdQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fLight-Pink-Backgrounds.jpg&ehk=ieu30Klatnm%2ff%2bruuBvvhhCMXrdSYdnUylIBgM4bwWo%3d&risl=&pid=ImgRaw&r=0");
+height: 100vh;
+
+}
+
+.user-info {
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    background-color: #f8f9fa; 
+    padding: 50px;
+}
+.user-info  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 80px;
+    margin-top: 0;
+    background-color: #0e0c0c;
+}
+.info-sectionFirst{
+    margin-top: 30px;
+}

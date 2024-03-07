@@ -1,0 +1,46 @@
+/* 
+
+.first {
+    display: flex;
+    align-items: flex-start;
+    /* background-image: url("https://th.bing.com/th/id/R.1ee114adf3f6f5d36fa03d98dd027595?rik=Z0uB2FeHhylfbQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fLight-Blue-HD-Backgrounds-Free-Download.jpg&ehk=A1oL99oIPNjoWoX7%2fJZhOrBh8TTdeatDhhq26OJaxJU%3d&risl=&pid=ImgRaw&r=0"); */
+    /* background-size: cover;
+    height: 100vh; */
+    /* background-image: url("https://wallpapercave.com/wp/wp2308552.jpg"); */
+/* }
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+  */
+  .first {
+    display: flex;
+    align-items: flex-start;
+    /* background-image: url("https://th.bing.com/th/id/R.1ee114adf3f6f5d36fa03d98dd027595?rik=Z0uB2FeHhylfbQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fLight-Blue-HD-Backgrounds-Free-Download.jpg&ehk=A1oL99oIPNjoWoX7%2fJZhOrBh8TTdeatDhhq26OJaxJU%3d&risl=&pid=ImgRaw&r=0"); */
+    background-size: cover;
+    height: 100vh;
+    /* background-image: url("https://wallpapercave.com/wp/wp2308552.jpg"); */
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.user-info {
+    margin-top: 80px; /* Adjust as needed */
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.user-info p {
+    margin: 10px 0; /* Adjust as needed for spacing */
+    margin-left: 80px; /* Adjust as needed to position text beside the image */
+    font-weight: bold;
+    font-size: 20px;
+}
+

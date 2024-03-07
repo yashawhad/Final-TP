@@ -1,0 +1,43 @@
+
+<header></header>
+<header>
+  <h1>USER DASHBOARD</h1>
+  
+  <nav>
+      <ul>
+          <li><a class="p-5 border-danger " routerLink="assignTraining">Available Trainings</a></li>
+          
+          <li class="profile-logout"><a href="userDashboard/user-profile">Home</a></li>
+           <li>
+             
+          </li>
+          <li style="cursor: pointer;" class="profile-logout "><a (click)="logout()">Logout</a></li>
+
+      </ul>
+  </nav>
+</header>
+<h2>Assigned Trainings</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Training ID</th>
+      <th>Training Name</th>
+      <th> link</th>
+      <th>Training description</th>
+      <th>Action</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let training of assignedTrainings">
+      <td>{{ training.training.id }}</td>
+      <td>{{ training.training.name }}</td>
+      <td><a href="{{ training.training.link }}" target="_blank">{{ training.training.link }}</a></td>
+      <td>{{ training.training.description }}</td>
+      <td><button class="btn-primary" (click)="enroll(training)">{{ training.action }}</button></td>
+    </tr>
+  </tbody>
+</table>
+
+

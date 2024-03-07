@@ -1,0 +1,31 @@
+<div *ngIf="assignedTrainings">
+    <h2>Assigned Trainings</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>User Name</th>
+          <th>Training ID</th>
+          <th>Training Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let userTraining of assignedTrainings">
+          <td>{{ userTraining.username }}</td>
+          <td>
+            <ul>
+              <li *ngFor="let training of userTraining.trainings">
+                {{ training.trainingId }}
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li *ngFor="let training of userTraining.trainings">
+                {{ training.trainingName }}
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+   
+   
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+   
+  }
+   
+   
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+   
+   
+  td {
+    padding: 8px;
+  }
+   
+   
+  .btn1 {
+    padding: 8px 12px;
+    background-color: #365cf4bf;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+   
+  .btn1:hover {
+    background-color: #0056b3;
+  }
+  h2{
+      color: #365cf4bf;
+      font-weight: bold;
+      margin-left: 10px;
+     
+  }

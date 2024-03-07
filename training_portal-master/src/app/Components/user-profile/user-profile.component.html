@@ -1,0 +1,38 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<header>
+    <h1 style="font-size: bold;">USER DASHBOARD</h1>
+    <nav>
+        <ul>
+            <li><a href="userDashboard/assignTraining">Available Trainings</a></li>
+          
+            <li class="profile-logout"><a routerLink="user-profile"></a>Home</li>
+            <li style="cursor: pointer;" class="profile-logout"><a (click)="logout()">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="profile">
+    <h2 style="text-align: center; color:black; font-weight:bolder;">WELCOME TO USER PROFILE</h2>
+    <div class="user-info">
+        <img src="https://th.bing.com/th/id/OIP.7tlP1ph61ompULJdycVJlQHaHa?rs=1&pid=ImgDetMain">
+       <div class="info-sectionFirst">
+        <div class="info-section">
+            <label><i class="fa fa-envelope" aria-hidden="true"></i>Email:</label>
+            <p>{{userData?.email}}</p>
+          
+        </div>
+        <div class="info-section">
+            <label><i class="fa fa-life-ring" aria-hidden="true"></i>Role:</label>
+            <p>{{userData?.role}}</p>
+          
+        </div>
+        <div class="info-section">
+            <label><i class="fa fa-user" aria-hidden="true"></i>Username:</label>
+            <p>{{userData?.userName}}</p>
+           
+        </div>
+    </div>
+</div>
+</section>
+
